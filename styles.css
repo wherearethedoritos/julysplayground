@@ -1,7 +1,10 @@
 body {
     background-color: #2b2b2b;
+    display: flex;
+    align-items: center;
 }
 
 p, h1{
     color: #dddddd;
+    font-family: monospace;
 }
