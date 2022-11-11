@@ -1,9 +1,11 @@
 html {font-size: 62.5%;}
 
 body {
-    background: #0F2027;  
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
-    background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
+    overflow-x: hidden;
+    background-image:  linear-gradient(30deg, #c736fd 12%, transparent 12.5%, transparent 87%, #c736fd 87.5%, #c736fd), linear-gradient(150deg, #c736fd 12%, transparent 12.5%, transparent 87%, #c736fd 87.5%, #c736fd), linear-gradient(30deg, #c736fd 12%, transparent 12.5%, transparent 87%, #c736fd 87.5%, #c736fd), linear-gradient(150deg, #c736fd 12%, transparent 12.5%, transparent 87%, #c736fd 87.5%, #c736fd), linear-gradient(60deg, rgba(199,54,253,0.5) 25%, transparent 25.5%, transparent 75%, rgba(199,54,253,0.5) 75%, rgba(199,54,253,0.5)), linear-gradient(60deg, rgba(199,54,253,0.5) 25%, transparent 25.5%, transparent 75%, rgba(199,54,253,0.5) 75%, rgba(199,54,253,0.5));
+    background-size: 64px 112px;
+    background-position: 0 0, 0 0, 32px 56px, 32px 56px, 0 0, 32px 56px;
+    background-color: #d3406e;
 
     display: flex;
     flex-direction: column;
@@ -21,6 +23,7 @@ body {
     align-items: center;
     font-size: 20px;
     color: #eeeded;
+    
 }
 
 p {
@@ -29,4 +32,16 @@ p {
 
 h1 {font-size: 4.5rem;}
 
-    
+.landing {
+    margin: 0 auto;
+    padding: 4rem;
+    text-align: left;
+    background: rgba(0,0,0,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 1.5rem;
+    -webkit-box-shadow: -7px 8.5px 6.5px 4px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: -7px 8.5px 6.5px 4px rgba(0, 0, 0, 0.36);
+    box-shadow: -7px 8.5px 6.5px 4px rgba(0, 0, 0, 0.36);
+    }
