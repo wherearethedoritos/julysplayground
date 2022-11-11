@@ -32,10 +32,9 @@ p {
 
 h1 {font-size: 4.5rem;}
 
-.landing {
-    margin: 0 auto;
-    padding: 4rem;
-    text-align: left;
+
+
+.glassbox {
     background: rgba(0,0,0,0.5);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
@@ -44,4 +43,19 @@ h1 {font-size: 4.5rem;}
     -webkit-box-shadow: -7px 8.5px 6.5px 4px rgba(0, 0, 0, 0.36);
     -moz-box-shadow: -7px 8.5px 6.5px 4px rgba(0, 0, 0, 0.36);
     box-shadow: -7px 8.5px 6.5px 4px rgba(0, 0, 0, 0.36);
+}
+
+.header {
+    margin: 3rem auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.landing {
+    margin: 0 auto;
+    padding: 4rem;
+    text-align: left;
+    
     }
